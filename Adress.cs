@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace PizzeriaClasses
 {
-    public class Orders
+    public class Adress
     {
-        public int OrderID { get; set; }
+        public int AdressID {  get; set; }
         public int CustomerID { get; set; }
-        public string PaymentMethod { get; set; }
+        public string Details {  get; set; }
+
+        public Customer Customer { get; set; }
     }
 }

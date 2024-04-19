@@ -11,5 +11,13 @@ namespace PizzeriaClasses
         public int SizeID {  get; set; }
         public string Size {  get; set; }
 
+        public double Price { get; set; }
+
+        public Pizza Pizza { get; set; }
+
+        public override string ToString()
+        {
+            return Size;
+        }
     }
 }

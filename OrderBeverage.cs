@@ -13,6 +13,8 @@ namespace PizzeriaClasses
         public int BeverageID { get; set; }
         public int Quantity {  get; set; }
 
+        public Order Order { get; set; }
+        public Beverage Beverage { get; set; }
         
     }
 }
