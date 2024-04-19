@@ -10,5 +10,6 @@ namespace PizzeriaClasses
     {
         public int OrderID { get; set; }
         public int CustomerID { get; set; }
+        public string PaymentMethod { get; set; }
     }
 }
