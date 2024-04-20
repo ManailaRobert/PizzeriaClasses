@@ -13,7 +13,7 @@ namespace PizzeriaClasses
 
         public double Price { get; set; }
 
-        public Pizza Pizza { get; set; }
+        public ICollection<Pizza> Pizzas { get; set; }
 
         public override string ToString()
         {

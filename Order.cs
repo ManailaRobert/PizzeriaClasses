@@ -12,7 +12,7 @@ namespace PizzeriaClasses
         public int CustomerID { get; set; }
         public string PaymentMethod { get; set; }
 
-        public Customer Customer { get; set; }
+        public Customers Customer { get; set; }
         public  ICollection<OrderBeverage> OrderBeverages { get; set; }
         public ICollection<OrderPizza> OrderPizza { get; set;}
     }

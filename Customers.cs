@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PizzeriaClasses
 {
-    public class Customer
+    public class Customers
     {
         public int CustomerID {  get; set; }
         public string Name {  get; set; }

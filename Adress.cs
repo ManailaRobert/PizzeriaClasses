@@ -12,6 +12,6 @@ namespace PizzeriaClasses
         public int CustomerID { get; set; }
         public string Details {  get; set; }
 
-        public Customer Customer { get; set; }
+        public Customers Customer { get; set; }
     }
 }
