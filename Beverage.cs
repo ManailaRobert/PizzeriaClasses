@@ -9,9 +9,20 @@ namespace PizzeriaClasses
     public class Beverage
     {
         public int BeverageID {  get; private set; }
-        public string Name {  get;  set; }
+        private string name {  get;  set; }
         public double Price {  get;  set; }
 
+        public string Name { 
+            get { return name; } 
+            set { 
+                if (string.IsNullOrEmpty(value) == false)
+                    if (value.Length>0 && value.Length <= 50)
+                        name = value;
+                    else throw new Exception("Invalid name. The name should be greated then 0 and smaller or equal to 50.");
+                else throw new Exception("Invalid name. Name is empty.");
+
+            }
+        }
         public Beverage(string name, double price)
         {
             Name = name;
