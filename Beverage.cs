@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace PizzeriaClasses
 {
-    public class Beverage
+    public class Beverage:IBuyable
     {
         public int BeverageID {  get; private set; }
-        private string name {  get;  set; }
+        private string name;
         public double Price {  get;  set; }
-
         public string Name { 
             get { return name; } 
             set { 
@@ -22,6 +21,10 @@ namespace PizzeriaClasses
                 else throw new Exception("Invalid name. Name is empty.");
 
             }
+        }
+        public Beverage()
+        {
+
         }
         public Beverage(string name, double price)
         {

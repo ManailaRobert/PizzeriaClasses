@@ -11,10 +11,16 @@ namespace PizzeriaClasses
         public int OrderBeverageID {  get; set; }
         public int OrderID {  get; set; }
         public int BeverageID { get; set; }
-        public int Quantity {  get; set; }
+
 
         public Order Order { get; set; }
         public Beverage Beverage { get; set; }
         
+        public OrderBeverage() { }  
+        public OrderBeverage(int orderId, int beverageId)
+        {
+            OrderID = orderId;
+            BeverageID = beverageId;
+        }
     }
 }

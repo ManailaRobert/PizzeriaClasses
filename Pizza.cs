@@ -1,13 +1,14 @@
 
 namespace PizzeriaClasses
 {
-    public class Pizza
+    public class Pizza:IBuyable
     {
         public int PizzaID { get; private set; }
-        private string name { get;  set; }
+        private string name;
         public double Price {  get; set; }
         public int SizeID { get; set; }
         public string Custom {  get; private set; }
+
 
         public string Name
         {
@@ -29,6 +30,7 @@ namespace PizzeriaClasses
             SizeID = sizeID;
             Custom = custom;
         }
+        public Pizza() { }
         public ICollection<OrderPizza> OrderPizza { get; private set; } 
         public ICollection<IngredientsGroup> IngredientsGroup { get; private set;}
         public Sizes Size { get; set; }

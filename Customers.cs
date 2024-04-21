@@ -14,7 +14,7 @@ namespace PizzeriaClasses
 
 
         public ICollection<Adress> Adresses { get; set; }
-        public ICollection<Order>Orders { get; set; }
+        public ICollection<Order>CustomerOrders { get; set; }
         
 
         public string Name

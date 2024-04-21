@@ -31,6 +31,7 @@ namespace PizzeriaClasses
             }
         }
         public Customers Customer { get; set; }
+        public ICollection<Order> Orders { get; set; }
         public Adress() { }
         public Adress(string details) { 
 

@@ -11,10 +11,13 @@ namespace PizzeriaClasses
         public int OrderPizzaID { get; set; }  
         public int OrderID { get; set; }
         public int PizzaID { get;set; }
-        public int Quantity {  get; set; }
-        public DateTime SpoilTime { get; set; }
 
         public Pizza Pizza { get; set; }
         public Order Order { get; set; }
+        public OrderPizza() { }
+        public OrderPizza(int orderId, int pizzaId) { 
+            OrderID = orderId;
+            PizzaID = pizzaId;  
+        }
     }
 }
