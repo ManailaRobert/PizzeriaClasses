@@ -1,7 +1,9 @@
-The Classes Required for the Pizzeria project.
+#Pizzeria Classes
 
-https://github.com/ManailaRobert/Pizzeria
+- The Classes Required for the Pizzeria project. 
 
-They are separate because of a requirement for the project.
+- They are separate because of a requirement for the project.
+
+Pizzeria app (https://github.com/ManailaRobert/Pizzeria)
 
 (Part of #3 Biggest Project made)
