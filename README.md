@@ -4,6 +4,6 @@
 
 - They are separate because of a requirement for the project.
 
-Pizzeria app (https://github.com/ManailaRobert/Pizzeria)
+Pizzeria App: https://github.com/ManailaRobert/Pizzeria
 
 (Part of #3 Biggest Project made)
